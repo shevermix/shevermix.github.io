@@ -1,1 +1,39 @@
+body{background: #C2AC8B; color: #1C314A}
+
 h1 {background: #86ceb6; color: #fff;}
+
+h3 {
+	color: #C2AC8B;
+	background: #967B51;
+}
+
+.content{max-width: 70%; float: left;}
+
+.chapters{
+	position: fixed;
+	top: 50px;
+	right: 100px;
+	border: dotted;
+	padding: 30px;
+	background: #C2A67C;
+}
+
+.chap-main{
+	margin:0px;
+	color: #715428;
+}
+
+
+.chap-second{
+	margin: 0 0 0 -30px;
+}
+
+.del{text-decoration: line-through;}
+
+.em{
+	font-style: italic;
+}
+
+.ins{
+	text-decoration: underline;
+}
