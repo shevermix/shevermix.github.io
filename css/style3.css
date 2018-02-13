@@ -1,0 +1,119 @@
+*{margin: 0;}
+
+body{
+	font-family: Tahoma;
+	
+}
+
+.top-wrapper__main-wrapper{
+	max-width: 1164px;
+	margin: 72px auto 96px auto;
+}
+
+.image-wrapper{
+	display: inline-block;
+	max-width: 40%;
+	vertical-align: middle;
+}
+
+.container__top-wrapper{
+	display: inline-block;
+	max-width: 59%;
+	vertical-align: top;
+	margin-top: 60px;
+	margin-left: 75px;
+}
+
+.name-of-product{
+	margin-bottom: 15px;
+}
+
+.description-of-product{
+	max-width: 526px;
+	margin: 35px 0 47px 0;
+}
+
+.price{
+	color: #313131;
+font-family: Tahoma;
+font-size: 48px;
+font-weight: 400;
+line-height: 27px;
+margin-bottom: 53px;
+}
+
+.button{
+color: white;
+border: none;
+background-color: #f05a22;
+width: 175px;
+height: 67px;
+color: #ffffff;
+font-size: 30px;
+font-weight: 400;
+outline:none;
+border-radius: 5px; 
+margin-right: 40px;
+}
+
+.btn-empty{
+width: 287px;
+background: #fff;
+border: #f05a22 2px solid;
+color: #f05a22;
+}
+
+
+.middle-wrapper__main-wrapper{
+
+	background-color: #f2f2f2;
+	min-width: 1164px;
+	margin: 72px auto 96px auto;
+
+}
+
+.delivery-and-pay{
+margin: 0 auto;
+padding-top: 89px;
+width: 292px;
+color: #333333;
+font-size: 30px;
+font-weight: 700;
+}
+	
+.img-delivery__middle-wrapper{
+	max-width: 1000px;
+	margin: 91px auto;
+}
+
+.icons{
+	display: inline-block;
+	width: 241px;
+	height: 50px;
+	vertical-align: middle;
+	margin: 0 25px;
+	padding-bottom: 10px;
+}
+
+.icons img{
+	margin: 0 85px;
+	
+}
+
+.description-delivery{
+display: inline-block;
+margin: 10px 25px;
+width: 241px;
+height: 36px;
+text-align: center;
+}
+
+.wrapp-deliv{
+	width: 245px;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+.who-bought{
+	
+}

@@ -64,3 +64,11 @@ font-size: 48px;
 font-weight: 400;
 margin-bottom: 90px;
 }
+
+.back{
+	position: absolute;
+	top: 30px;
+	left: 153px;
+	width: 200px;
+}
+
