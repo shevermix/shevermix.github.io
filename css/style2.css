@@ -1,0 +1,66 @@
+*{margin: 0;}
+body{
+	font-family: "Arial";
+	background: #ebebeb;
+}
+
+.main-wrapper{
+	background: #fff;
+	display: inline-block;
+	max-width: 1615px;
+	max-height: 800px;
+	margin: 138px 153px;
+	
+}
+.headphones-wrapper{
+	display: inline-block;
+	max-width: 40%;
+	margin: 102px 77px;
+	vertical-align: middle;
+
+	
+}
+
+.container{
+	max-width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+.name-of-product{
+	margin-bottom: 48px; 
+}
+
+.descriptio-of-product__container{
+min-width: 630px;
+font-size: 24px;
+font-weight: 400;
+color: #2f2f2f;
+margin-bottom: 87px;
+}
+
+.button{
+color: white;
+border: none;
+background: #ec744a;
+width: 402px;
+height: 79px;
+color: #ffffff;
+font-size: 30px;
+font-weight: 400;
+outline:none;
+}
+
+.word-price__container{
+color: #2f2f2f;
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 36px;
+}
+.price{
+color: #2f2f2f;
+font-size: 48px;
+font-weight: 400;
+margin-bottom: 90px;
+}
