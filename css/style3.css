@@ -67,7 +67,7 @@ color: #f05a22;
 .middle-wrapper__main-wrapper{
 
 	background-color: #f2f2f2;
-	min-width: 1164px;
+	max-width: 100%;
 	margin: 72px auto 96px auto;
 
 }
@@ -115,5 +115,19 @@ text-align: center;
 }
 
 .who-bought{
-	
+
+color: #333333;
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 69px;
+}
+
+.gallery{
+	margin: 0 auto 91px auto; 
+	max-width: 1199px;
+}
+
+.gallery img{
+	margin: 15px 15px;
 }
