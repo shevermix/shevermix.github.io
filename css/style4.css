@@ -1,0 +1,15 @@
+
+
+img{width: 100px;}
+
+.box{
+	height: 100px;
+	border: solid 2px #000;
+	/*background: #000;*/
+}
+
+.box-in{
+	height: 50px;
+	background: green;
+	border: solid 1px #000;
+}
