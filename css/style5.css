@@ -1,0 +1,28 @@
+body {
+	margin: 0 auto;
+}
+
+
+.row{
+	background: #000;
+	margin:0 auto;
+	position: fixed;
+	display: inline-block;
+	width: 100%;
+	
+}
+
+.box{
+	width: 100%;
+	
+}
+
+.col-sm-2{
+	color: #fff;
+	border: 1px solid #fff;padding: 17px 0;
+}
+
+a{
+	color: #fff;
+	display: inline-block;
+}

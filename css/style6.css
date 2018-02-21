@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+}
+
+.box{
+	position: absolute;
+	top:50%; 	
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -150px; 
+	width: 300px;
+	height: 400px;
+	background: #fff;
+	border: 2px solid grey;
+	padding: 20px 30px;overflow: scroll;
+}
+.box-in-1{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding-right: 1px;
+
+}
+.box-in-2{
+	display: inline-block;
+	width: 50%;
+text-align: center;	
+padding-left: 1px;
+
+}
