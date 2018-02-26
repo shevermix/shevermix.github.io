@@ -1,0 +1,90 @@
+@color1: #706b73;
+@color2: #fa9279;
+
+.border{border: 1px solid;
+}
+
+.fontbase{ font-family: "Open Sans";
+font-size: 38px;
+font-weight: 600;
+line-height: 42px;
+}
+
+.main{
+	&__container{
+	
+		&__row{
+			&__logo-header{
+				margin-top: 82px;
+				margin-left: 150px;
+				border: 4px solid @color1;
+				border-radius: 2px;
+				 width: 149px; 
+				 height: 55px;
+				 text-align: center;
+				 .fontbase;
+				&__first-letter{
+					color: @color2;
+				}
+			}
+
+			&__header--button-nav{
+				display: block;
+				float: right;
+					margin-top: 89px;
+				margin-right: 150px;
+				height: 30px;
+
+				
+				&__line{
+					position: relative;
+					top:50%;
+					display: block;
+					
+					width: 34px;
+					height: 4px;
+					border-radius: 20px;
+					background-color: @color1;
+
+					&:before, &:after{
+						content: "";
+						display: inline-block;
+						width: 34px;
+					height: 4px;
+					border-radius: 20px;
+					background-color: @color1;
+					}
+				}
+				&__line:before{
+				-webkit-transform: translateY(-3px);
+				-ms-transform: translateY(-3px);
+				-o-transform: translateY(-3px);
+				transform: translateY(-3px);
+					}
+					&__line:after{
+				-webkit-transform: translateY(-38px);
+				-ms-transform: translateY(-38px);
+				-o-transform: translateY(-38px);
+				transform: translateY(-38px);
+
+}
+margin-bottom: 145px;
+			}
+		}
+
+	&__main-text{
+clear: both;
+		color: @color1;
+		h1{.fontbase;
+
+		}
+				h1 span{color:@color2;
+				}
+			p{.fontbase{font-size: 16px;
+font-weight: 400;}}
+		}
+	}
+}
+
+
+

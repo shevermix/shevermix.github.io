@@ -10,8 +10,12 @@
     <!-- Bootstrap -->
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style7.css">
+    
 
+    <link rel="stylesheet/less" type="text/css" href="less/style7.less" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.0/less.min.js" ></script>
+
+<link rel="stylesheet" href="css/style7.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -22,15 +26,28 @@
   <body>
       
    <header id="main">
-     <div class="container">
-       <div class="row header__main">
-         <div class="col-sm-6 logo-header__main"><span class="first-letter">S</span>mart</div>
-         
-         <div class="col-sm-6 button-header__main">
-          <a href="#">
-            <span class="line"></span></a>           
+     <div class="main__container">
+       <div class="main__container__row">
+         <div class="col-sm-6">
+          <div class="main__container__row__logo-header"><span class="main__container__row__logo-header__first-letter">S</span>mart</div>
          </div>
-       </div>
+
+         <div class="col-sm-6"> 
+          <a href="#" class="main__container__row__header--button-nav"><span class="main__container__row__header--button-nav__line"></span>
+           </a>         
+         </div>
+       </div> <!-- /main__container__row-->
+
+     <div class="row main__container__main-text">
+         <div class="col-lg-6 col-sm-offset-3 text-center">
+          <h1><span>Smart</span> Agency Landign Page</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, fuga provident. Libero magni quibusdam labore ad iste saepe hic, maxime qui ipsum tempore beatae, volu tomi ptates        doloremque rerum aspernatur dolorum at!</p>
+         </div>
+        </div> <!-- /row -->  
+     
+     .row.main__container__box-send-a-message>
+
+
      </div>
    </header>
     
