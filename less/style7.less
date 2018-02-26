@@ -1,19 +1,66 @@
+// color base
 @color1: #706b73;
 @color2: #fa9279;
+@color3: #ff5c36;
+@bg-header: #f5f5f5;
+@white: white;
 
-.border{border: 1px solid;
-}
-
+// base settings
 .fontbase{ font-family: "Open Sans";
 font-size: 38px;
 font-weight: 600;
 line-height: 42px;
 }
+.fontmiddle{
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 400;
+color:@color1;
+}
+.fontmin{
+	font-family: "Open Sans";
+	font-size: 16px;
+font-weight: 400;
+}
 
+*{margin: 0;}
+
+input, button, textarea{
+	&:focus{
+	outline: none;
+	}
+}
+
+header{
+	background: @bg-header url(../img/main-bg.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+}
+
+section{
+	padding: 10%;
+}
+
+.section__header{
+	h2{
+		.fontbase;
+		font-size: 50px;
+	}
+	span{
+		color:@color2;
+	}
+	p{.fontmin;
+		color: @color1;
+	}
+}
+
+
+
+//main block
 .main{
 	&__container{
 	
-		&__row{
+		&__row{ 
 			&__logo-header{
 				margin-top: 82px;
 				margin-left: 150px;
@@ -29,10 +76,10 @@ line-height: 42px;
 			}
 
 			&__header--button-nav{
+				margin-top: 82px;
 				display: block;
 				float: right;
-					margin-top: 89px;
-				margin-right: 150px;
+				
 				height: 30px;
 
 				
@@ -74,16 +121,59 @@ margin-bottom: 145px;
 
 	&__main-text{
 clear: both;
+margin: 0 20%;
 		color: @color1;
 		h1{.fontbase;
 
 		}
-				h1 span{color:@color2;
+				h1 span{color:@color3;
 				}
-			p{.fontbase{font-size: 16px;
-font-weight: 400;}}
+			p{.fontmin}
 		}
-	}
+		&__form{
+background-color: @white;
+margin-top: 15%;
+padding: 35px;
+-webkit-box-shadow: 0px 0px 57px 0px rgba(20,20,21,0.2);
+box-shadow: 0px 0px 57px 0px rgba(20,20,21,0.2);
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+-ms-border-radius: 2px;
+-o-border-radius: 2px;
+border-radius: 2px;
+			p{.fontmiddle;
+				span{
+					color: @color3;
+				}
+			}
+			input, textarea{
+				width: 100%;
+				border: none;
+				border-bottom: 1px solid;
+				margin-top:35px;
+				font-size: 16px;
+			}
+			&__btn{
+				margin-top:35px;
+				width: 238px;
+				height: 55px;
+				box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
+				-webkit-border-radius: 27px;
+				-moz-border-radius: 27px;
+				-ms-border-radius: 27px;
+				-o-border-radius: 27px;
+				border-radius: 27px;
+				border: 1px solid rgba(1, 2, 2, 0.07);
+				background-color: @color3;
+				color: @white;
+				font-family: "Open Sans";
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 25px;
+			}
+		}// }form
+	} // }container
+
 }
 
 

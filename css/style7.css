@@ -1,11 +1,51 @@
-.border {
-  border: 1px solid;
-}
 .fontbase {
   font-family: "Open Sans";
   font-size: 38px;
   font-weight: 600;
   line-height: 42px;
+}
+.fontmiddle {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  color: #706b73;
+}
+.fontmin {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+* {
+  margin: 0;
+}
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+header {
+  background: #f5f5f5 url(../img/main-bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+section {
+  padding: 10%;
+}
+.section__header h2 {
+  font-family: "Open Sans";
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 42px;
+  font-size: 50px;
+}
+.section__header span {
+  color: #fa9279;
+}
+.section__header p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: #706b73;
 }
 .main__container__row__logo-header {
   margin-top: 82px;
@@ -24,10 +64,9 @@
   color: #fa9279;
 }
 .main__container__row__header--button-nav {
+  margin-top: 82px;
   display: block;
   float: right;
-  margin-top: 89px;
-  margin-right: 150px;
   height: 30px;
   margin-bottom: 145px;
 }
@@ -63,6 +102,7 @@
 }
 .main__container__main-text {
   clear: both;
+  margin: 0 20%;
   color: #706b73;
 }
 .main__container__main-text h1 {
@@ -72,9 +112,57 @@
   line-height: 42px;
 }
 .main__container__main-text h1 span {
-  color: #fa9279;
+  color: #ff5c36;
 }
-.main__container__main-text p .fontbase {
+.main__container__main-text p {
+  font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
+}
+.main__container__form {
+  background-color: #ffffff;
+  margin-top: 15%;
+  padding: 35px;
+  -webkit-box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+.main__container__form p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  color: #706b73;
+}
+.main__container__form p span {
+  color: #ff5c36;
+}
+.main__container__form input,
+.main__container__form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  margin-top: 35px;
+  font-size: 16px;
+}
+.main__container__form__btn {
+  margin-top: 35px;
+  width: 238px;
+  height: 55px;
+  box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  -ms-border-radius: 27px;
+  -o-border-radius: 27px;
+  border-radius: 27px;
+  border: 1px solid rgba(1, 2, 2, 0.07);
+  background-color: #ff5c36;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
 }
