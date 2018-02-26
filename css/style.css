@@ -1,6 +1,7 @@
-body{background: #C2AC8B; color: #1C314A}
+body{background: #C2AC8B; color: #1C314A;
+text-align: center;}
 
-h1 {background: #86ceb6; color: #fff;}
+h1 {background: #1E5442; color: #A2C0B6;}
 
 h3 {
 	color: #C2AC8B;
@@ -36,4 +37,11 @@ h3 {
 
 .ins{
 	text-decoration: underline;
+}
+
+a{
+	font-size: 30px;
+	color: #252158;
+	text-decoration: none;
+	
 }
