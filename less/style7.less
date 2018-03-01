@@ -4,6 +4,7 @@
 @color3: #ff5c36;
 @bg-header: #f5f5f5;
 @white: white;
+@color-tomi-box: #4eb2f7;
 
 // base settings
 .fontbase{ font-family: "Open Sans";
@@ -23,7 +24,7 @@ color:@color1;
 font-weight: 400;
 }
 
-*{margin: 0;}
+body {margin: 0;}
 
 input, button, textarea{
 	&:focus{
@@ -179,4 +180,11 @@ border-radius: 2px;
 }
 
 
-
+.section__working_box{
+	background-color: @color-tomi-box;
+	.fa{
+		margin: 54px 109px 23px;
+		font-size:50px;
+		color: @white;
+	}
+}
