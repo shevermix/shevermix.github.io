@@ -5,6 +5,9 @@
 @bg-header: #f5f5f5;
 @white: white;
 @color-tomi-box: #4eb2f7;
+@color-coimona-set: #c049f8;
+@color-setting-koire: #817eff;
+@color-image-lara: #f74770;
 
 // base settings
 .fontbase{ font-family: "Open Sans";
@@ -24,7 +27,7 @@ color:@color1;
 font-weight: 400;
 }
 
-body {margin: 0;}
+body, .row{margin: 0 auto;}
 
 input, button, textarea{
 	&:focus{
@@ -181,10 +184,31 @@ border-radius: 2px;
 
 
 .section__working_box{
-	background-color: @color-tomi-box;
+	color: @white;
+	margin-bottom: 181px;
+	// padding:0 48px;
 	.fa{
-		margin: 54px 109px 23px;
+		margin: 54px 100px 23px 100px;
 		font-size:50px;
-		color: @white;
+	}
+	h4{margin-bottom: 8%;}
+	p{padding: 0 48px 50px;}
+}
+.box-tomi{
+	background-color: @color-tomi-box;
+}
+.koimona-set{
+	background-color:@color-coimona-set;
+}
+.setting-koire{
+	background-color:@color-setting-koire;
+}
+.image-lara{
+	background-color:@color-image-lara;
+	.fa-camera-retro{
+	-webkit-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
 	}
 }

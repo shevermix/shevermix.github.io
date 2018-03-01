@@ -15,8 +15,9 @@
   font-size: 16px;
   font-weight: 400;
 }
-body {
-  margin: 0;
+body,
+.row {
+  margin: 0 auto;
 }
 input:focus,
 button:focus,
@@ -170,10 +171,34 @@ section {
   line-height: 25px;
 }
 .section__working_box {
-  background-color: #4eb2f7;
+  color: #ffffff;
+  margin-bottom: 181px;
 }
 .section__working_box .fa {
-  margin: 54px 109px 23px;
+  margin: 54px 100px 23px 100px;
   font-size: 50px;
-  color: #ffffff;
+}
+.section__working_box h4 {
+  margin-bottom: 8%;
+}
+.section__working_box p {
+  padding: 0 48px 50px;
+}
+.box-tomi {
+  background-color: #4eb2f7;
+}
+.koimona-set {
+  background-color: #c049f8;
+}
+.setting-koire {
+  background-color: #817eff;
+}
+.image-lara {
+  background-color: #f74770;
+}
+.image-lara .fa-camera-retro {
+  -webkit-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
