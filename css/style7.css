@@ -221,3 +221,33 @@ section {
   -o-transform: rotate(-15deg);
   transform: rotate(-15deg);
 }
+.fea-works__box-images {
+  position: relative;
+  width: 360px;
+  height: 358px;
+  margin-bottom: 10px;
+}
+.fea-works__box-images img {
+  width: 360px;
+  height: 358px;
+}
+.fea-works__box-images .signature {
+  transition: opacity 0.3s;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 50, 50, 0.5);
+}
+.fea-works__box-images .signature:hover {
+  opacity: 1;
+}
+.fea-works__box-images .signature button {
+  background-color: #ff5c36;
+  border: none;
+  border-radius: 50px;
+  margin-top: 35%;
+  padding: 15px 35px;
+}
