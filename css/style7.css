@@ -245,9 +245,14 @@ section {
   opacity: 1;
 }
 .fea-works__box-images .signature button {
-  background-color: #ff5c36;
+  opacity: 0.8;
+  background-color: #fa9279;
   border: none;
   border-radius: 50px;
   margin-top: 35%;
   padding: 15px 35px;
+  box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
+  color: #ffffff;
+  font: .fontbase;
+  font-size: 20px;
 }
