@@ -43,12 +43,9 @@ header{
 	height: 100vh;
 }
 
-section{
-	padding-top: 10%;
-}
-
 .section__header{
 	margin-bottom: 5%;
+	margin-top: 10%;
 
 	h2{
 		.fontbase;
@@ -256,12 +253,15 @@ background: rgba(50,50,50,0.5);
 				&:hover{
 					opacity:1;
 					}
+					p{.fontbase;
+						color:@white;
+						margin-top: 25%;}
 	button{
 		opacity:0.8;
 		background-color: @color2;
 		border: none;
 		border-radius: 50px;
-		margin-top:35%;
+		margin-top:3%;
 		padding: 15px 35px; 
 		box-shadow: 2px 11px 20px rgba(20, 20, 21, 0.08);
 		color:@white;
@@ -271,5 +271,30 @@ background: rgba(50,50,50,0.5);
 
 				}
 			}	
+}
+
+//section services
+.nav-tabs>li>a, 
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover{
+		border:none;padding:0px;
+		list-style-type: none;
+
+}
+.accordeon-test{
+	.panel-group{
+		.panel-heading{background:@color2;
+color:@white;
+		}
+		}
+
+	margin-bottom: 150px;
+	.fontmin;
+	a{
+		&:hover, &:active{
+		text-decoration: none;
+	}
+	}
 	
 }
