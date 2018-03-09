@@ -19,6 +19,10 @@
 
 <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 
+<!-- Slick -->
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 <link rel="stylesheet" href="css/style7.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -379,7 +383,7 @@
  <!-- /.container -->
 </section>
 <!-- /#services -->
-<section id="slider-test">
+<section id="slider-Fotorama">
  <div class="container">
   <div class="row">
    <div class="col-lg-12 text-center">
@@ -417,14 +421,75 @@
 </section>
 <!-- /#services -->
 
+<section id="sliderSclick">
+ <div class="container">
+  <div class="row">
+   <div class="col-lg-12 text-center">
+    <div class="section__header">
+     <h2><span>Slider</span> Sclick</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores fuga provident Libero.</p>
+    </div>
+    <!-- /.section__header -->
+   </div>
+   <!-- /.col-lg-12 text-center -->
+  </div>
+  <!-- /.row -->
+  <div class="row">
+   <div class="col-lg-12">
+    <div class="feedback-slider">
+     <div class="feedback-slider-item">
+      <div class="feedback-box">
+       <img class="img-circle" src="img/feedback/-----1.jpg" alt="-----1.jpg">
+       <p></p>
+       <div class="fa fa-star"></div>
+       <div class="fa fa-star"></div>
+       <div class="fa fa-star"></div>
+       <div class="fa fa-star"></div>
+       <div class="fa fa-star"></div>
+       <p><span></span></p>
+      </div>
+
+     </div>
+     <div class="feedback-slider-item"></div>
+     <div class="feedback-slider-item"></div>
+     <div class="feedback-slider-item"></div>
+     <div class="feedback-slider-item"></div>
+     <div class="feedback-slider-item"></div>
+    </div>
+    <!-- /.Slider-Slick -->
+   </div>
+   <!-- /.col-lg-12 -->
+  </div>
+  <!-- /.row -->
+ </div>
+ <!-- /.container -->
+</section>
+<!-- /#services -->
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+
+
+
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+
+    <script>
+     $(document).ready(function(){
+  $('.feedback-slider').slick({
+  });
+ });
+</script>
   </body>
 </html>
