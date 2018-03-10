@@ -284,3 +284,29 @@ header {
 .accordeon-test a:active {
   text-decoration: none;
 }
+.feedback-slider .slick-active {
+  outline: none;
+}
+.feedback-slider__feedback-box {
+  margin: 5%;
+  margin-bottom: 20%;
+}
+.feedback-slider__feedback-box__img {
+  margin-bottom: -50px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 rgba(20, 20, 21, 0.38);
+}
+.feedback-slider__feedback-box p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+.feedback-slider__feedback-box__shadow {
+  box-shadow: 0 0 27px rgba(20, 20, 21, 0.09);
+  padding: 40px 20px 20px;
+}
+.feedback-slider__arrows {
+  position: absolute;
+}
