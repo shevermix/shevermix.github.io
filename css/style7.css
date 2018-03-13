@@ -62,17 +62,18 @@ header {
   color: #706b73;
 }
 @keyframes animationfor-logo {
-  50% {
-    border: 10px solid #ff5c36;
-    margin-left: 50px;
+  33% {
+    transform: rotate(2deg);
+  }
+  66% {
+    transform: rotate(-2deg);
   }
   to {
-    border: solid #706b73;
-    margin-left: 150px;
+    border: 4px solid #ff5c36;
   }
 }
 .main__container__row__logo-header {
-  animation: animationfor-logo 5s infinite;
+  animation: animationfor-logo 0.5s infinite alternate;
   margin-top: 82px;
   margin-left: 150px;
   border: 4px solid #706b73;
@@ -394,6 +395,7 @@ footer {
   -o-border-radius: 50px;
   border-radius: 50px;
   padding: 13px 35px;
+  animation: zoomer 0.5s alternate infinite;
 }
 .popup {
   width: 300px;
@@ -583,4 +585,15 @@ Modal Window
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
   -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+@keyframes zoomer {
+  from {
+    width: 13%;
+    height: 8vh;
+  }
+  to {
+    width: 25%;
+    height: 12vh;
+    font-size: 30px;
+  }
 }

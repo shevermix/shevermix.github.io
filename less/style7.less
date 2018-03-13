@@ -75,13 +75,11 @@ header{
 
 @keyframes animationfor-logo{
 					from {}
-					50%{border: 10px solid @color3;
-margin-left: 50px;
+					33%{transform:rotate(2deg);
+					}66%{transform:rotate(-2deg);
 					}
-					to {border: solid @color1;
-margin-left: 150px;
+					to{border:4px solid @color3;
 					}
-
 				}
 
 //main block
@@ -90,7 +88,7 @@ margin-left: 150px;
 	
 		&__row{ 
 			&__logo-header{
-				animation: animationfor-logo 5s infinite;
+				animation: animationfor-logo 0.5s infinite alternate;
 
 				margin-top: 82px;
 				margin-left: 150px;
@@ -427,6 +425,8 @@ background-color: @white;
 -o-border-radius: 50px;
 border-radius: 50px;
 padding: 13px 35px;
+
+animation: zoomer 0.5s alternate infinite;
 	}
 }
 
@@ -623,3 +623,7 @@ Modal Window
   transition: opacity 0.3s 0s, visibility 0s 0s;
 }
 
+@keyframes zoomer{
+	from{width:13%;height:8vh;}
+	to{width:25%;height:12vh;font-size:30px;}
+}
