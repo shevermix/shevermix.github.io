@@ -589,11 +589,8 @@ Modal Window
 @keyframes zoomer {
   from {
     width: 13%;
-    height: 8vh;
   }
   to {
-    width: 25%;
-    height: 12vh;
-    font-size: 30px;
+    width: 15%;
   }
 }

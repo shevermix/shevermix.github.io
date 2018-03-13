@@ -24,6 +24,9 @@
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 <link rel="stylesheet" href="css/style7.css">
+<link rel="stylesheet" href="css/animate.css">
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -61,7 +64,7 @@
          <input type="text" placeholder="Your Name" required>
          <input type="email" placeholder="Your Email" required>
          <textarea rows="3" placeholder="Your Message"></textarea>
-         <button class="main__container__form__btn" type="submit">Send Message</button>
+         <button class="main__container__form__btn wow tada" type="submit">Send Message</button>
         </form>
        </div>
        <!-- /.main__container__form -->
@@ -77,7 +80,7 @@
      <div class="row">
       <div class="col-sm-12 text-center">
        <div class="section__header">
-       <h2><span>Working</span> Process</h2>
+       <h2 class="wow tada"><span>Working</span> Process</h2>
        <p>Lorem ipsum dolor sit amet consectet ur adipiscing elit  Vestibulum bibend um vestibulum.</p>
       </div>
        </div> <!-- /.col-sm-12 section__header -->
@@ -86,7 +89,7 @@
 
      <div class="row">
       <div class="col-sm-3 text-center">
-       <div class="section__working_box box-tomi">
+       <div class="section__working_box box-tomi wow bounceInLeft">
         <i class="fa fa-magnet"></i>
         <h4>Koc Koi Tomi</h4>
         <p>Lorem ipsum is dummy lorem very dumy</p>
@@ -97,7 +100,7 @@
        
        
 <div class="col-sm-3 text-center">
-       <div class="section__working_box koimona-set">
+       <div class="section__working_box koimona-set wow bounceInLeft" data-wow-delay="0.5s">
         <i class="fa fa-bug"></i>
         <h4>Koimona Set</h4>
         <p>Lorem ipsum is dummy lorem very dumy</p>
@@ -106,7 +109,7 @@
       </div> 
        
 <div class="col-sm-3 text-center">
-       <div class="section__working_box setting-koire">
+       <div class="section__working_box setting-koire wow bounceInRight" data-wow-delay="0.5s">
         <i class="fa fa-cogs"></i>
         <h4>Setting Koire</h4>
         <p>Lorem ipsum is dummy lorem very dumy</p>
@@ -117,7 +120,7 @@
        
        
 <div class="col-sm-3 text-center">
-       <div class="section__working_box image-lara">
+       <div class="section__working_box image-lara wow bounceInRight">
         <i class="fa fa-camera-retro"></i>
         <h4>Ko Image Lara</h4>
         <p>Lorem ipsum is dummy lorem very dumy</p>
@@ -699,6 +702,11 @@
 
   });
  });
+</script>
+
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
 </script>
 
 
