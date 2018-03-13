@@ -73,7 +73,16 @@ header{
 	}
 }
 
+@keyframes animationfor-logo{
+					from {}
+					50%{border: 10px solid @color3;
+margin-left: 50px;
+					}
+					to {border: solid @color1;
+margin-left: 150px;
+					}
 
+				}
 
 //main block
 .main{
@@ -81,6 +90,8 @@ header{
 	
 		&__row{ 
 			&__logo-header{
+				animation: animationfor-logo 5s infinite;
+
 				margin-top: 82px;
 				margin-left: 150px;
 				border: 4px solid @color1;
@@ -611,3 +622,4 @@ Modal Window
   -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0s;
 }
+
