@@ -700,8 +700,18 @@
   arrows: true,
   prevArrow: '<i class="feedback-slider__arrows arrow-left fa fa-chevron-left">',
   nextArrow: '<i class="feedback-slider__arrows arrow-right fa fa-chevron-right">',
-  dots: true
-
+  dots: true,
+  responsive: [
+    {
+      breakpoint: 450,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    }
+]
   });
  });
 </script>
