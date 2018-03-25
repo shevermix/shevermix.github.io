@@ -601,4 +601,7 @@ Modal Window
   .main__container__main-text h1 {
     font-size: 25px;
   }
+  .nav-tabs {
+    padding: 0;
+  }
 }
