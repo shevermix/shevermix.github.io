@@ -599,9 +599,13 @@ Modal Window
     margin-bottom: 0;
   }
   .main__container__main-text h1 {
-    font-size: 25px;
+    font-size: 24px;
   }
   .nav-tabs {
     padding: 0;
+  }
+  .nav-tabs img {
+    width: 80px;
+    height: 68px;
   }
 }
