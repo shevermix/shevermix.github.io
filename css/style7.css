@@ -96,6 +96,36 @@ header {
   height: 30px;
   margin-bottom: 145px;
 }
+.main__container__row__header--button-nav__line {
+  position: relative;
+  top: 50%;
+  display: block;
+  width: 34px;
+  height: 4px;
+  border-radius: 20px;
+  background-color: #706b73;
+}
+.main__container__row__header--button-nav__line:before,
+.main__container__row__header--button-nav__line:after {
+  content: "";
+  display: inline-block;
+  width: 34px;
+  height: 4px;
+  border-radius: 20px;
+  background-color: #706b73;
+}
+.main__container__row__header--button-nav__line:before {
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+.main__container__row__header--button-nav__line:after {
+  -webkit-transform: translateY(-38px);
+  -ms-transform: translateY(-38px);
+  -o-transform: translateY(-38px);
+  transform: translateY(-38px);
+}
 .main__container__main-text {
   clear: both;
   margin: 0 20%;
