@@ -608,4 +608,8 @@ Modal Window
     width: 80px;
     height: 68px;
   }
+  .section__header {
+    margin-bottom: 15px;
+    margin-top: 55px;
+  }
 }
