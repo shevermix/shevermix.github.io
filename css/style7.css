@@ -404,6 +404,7 @@ footer {
   -o-border-radius: 50px;
   border-radius: 50px;
   padding: 13px 35px;
+  animation: zoomer 0.5s alternate infinite;
 }
 .popup {
   width: 300px;
@@ -594,22 +595,11 @@ Modal Window
   -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0s;
 }
-@media (max-width: 600px) {
-  .main__container__row__header--button-nav {
-    margin-bottom: 0;
+@keyframes zoomer {
+  from {
+    width: 13%;
   }
-  .main__container__main-text h1 {
-    font-size: 24px;
-  }
-  .nav-tabs {
-    padding: 0;
-  }
-  .nav-tabs img {
-    width: 80px;
-    height: 68px;
-  }
-  .section__header {
-    margin-bottom: 15px;
-    margin-top: 55px;
+  to {
+    width: 15%;
   }
 }
